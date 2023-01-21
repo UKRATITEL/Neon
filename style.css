@@ -5,13 +5,14 @@
     box-sizing: border-box;
     color: white;
     text-decoration: none;
+    font-family: 'Pacifico', cursive;
 }
 
 body {
     width: 100%;
     height: 100vh;
     display: flex;
-    background-color: aqua;
+    background: linear-gradient(to bottom left, rgba(171, 23, 190, 0.71), rgba(31, 147, 120, 0.67));
     justify-content: center;
     align-items: center;
 }
@@ -22,9 +23,17 @@ body {
     object-fit: cover;
     border-radius: inherit;
 }
+button1 {
+    background-color: #FA740D;
+    font-size: 10px;
+    padding: 10px 24px;
+    border-radius: 12px;
+    margin-top: 33%;
+
+}
 
 .neon  {
-    --clr: purple;
+    --clr: rgb(226, 255, 0);
     width: 450px;
     height: 300px;
     display: flex;
@@ -34,7 +43,7 @@ body {
     justify-content: center;
     margin-left: 50px;
     transition: .5s;
-    filter: blur(5px);
+    filter: blur(3.5px);
 }
 .neon:hover {
     transform: scale(1.2);
